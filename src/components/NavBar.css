@@ -1,0 +1,73 @@
+.navbar {
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-logo {
+    height: 40px; /* Adjust as needed */
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link i {
+    margin-right: 5px;
+  }
+  
+  .form-inline {
+    margin-left: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .form-inline {
+      margin-top: 0.5rem;
+    }
+  }
+  .navbar-nav .nav-link {
+    margin-right: 15px;
+  }
+  
+  .navbar-nav .btn-primary {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+  }
+  .navbar-nav {
+    margin-left: auto; /* Pushes the nav items to the right */
+  }
+  
+  .nav-link {
+    cursor: pointer;
+  }
+  
+  .navbar .btn-link {
+    color: #007bff;
+  }
+  
+  .navbar .btn-primary {
+    color: white;
+  }
+  
+  .navbar-logo {
+    height: 40px;
+  }
+  /* NavBar.css */
+.navbar-logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  

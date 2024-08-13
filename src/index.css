@@ -1,13 +1,37 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding-top: 56px; /* For navbar */
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card-body {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.daily-deals {
+  display: flex;
+  flex-direction: row;
+}
+
+.daily-deals .container {
+  display: flex;
+}
+
+.daily-deals .container .row {
+  flex: 1;
+}
+
+@media (max-width: 767px) {
+  .daily-deals {
+    flex-direction: column;
+  }
 }
